@@ -1,0 +1,16 @@
+# This file should contain the environment variables that will be used
+# to deploy the dataClay serives (metadata, redis, backend), and
+# the dataClay client (dataClay).
+
+# Set dataclay configuration
+# DATACLAY_LOGLEVEL=DEBUG
+
+# Admin credentials
+# DATACLAY_USERNAME=admin
+# DATACLAY_PASSWORD=admin
+# DATACLAY_DATASET=admin
+
+# Client credentials
+# DC_USERNAME=admin
+# DC_PASSWORD=admin
+# DC_DATASET=admin
