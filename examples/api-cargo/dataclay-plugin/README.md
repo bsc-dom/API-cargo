@@ -1,4 +1,4 @@
-<table>
+<table style="border-collapse: collapse; border: none;">
   <tr>
     <td>
       <img src="https://github.com/bsc-dom/dataclay/blob/main/docs/_static/dataclay-full.png" alt="dataClay" style="width: 100%;"/>
