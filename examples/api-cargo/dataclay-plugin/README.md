@@ -1,9 +1,13 @@
-<div style="display: inline-block;">
-    <img src= "https://github.com/bsc-dom/dataclay/blob/main/docs/_static/dataclay-full.png" alt="dataClay" width="50%"/>
-</div>
-<div style="display: inline-block;">
-    <img src= "https://github.com/bsc-dom/API-cargo/blob/main/docs/_static/admire_logo.png" alt="admire" width="50%"/>
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/bsc-dom/dataclay/blob/main/docs/_static/dataclay-full.png" alt="dataClay" style="width: 100%;"/>
+    </td>
+    <td>
+      <img src="https://github.com/bsc-dom/API-cargo/blob/main/docs/_static/admire_logo.png" alt="admire" style="width: 100%;"/>
+    </td>
+  </tr>
+</table>
 
 # DataClay 
 
