@@ -9,11 +9,39 @@
   </tr>
 </table>
 
+
 # DataClay 
 
 DataClay is a distributed data store that enables applications to store and access objects in the same format they have in memory, and executes object methods within the data store. These two main features accelerate both the development of applications and their execution.
 
 To ease interoperability and allow dataClay to be used as a backend, a minimal translation layer is offered. This experimental user library offers seamless interaction between \cargo{} files and dataClay objects by translating POSIX file paths into dataClay object identifiers.
+
+## Installation
+
+### Downloading source code archives
++ Go to the DataClay repository [\[here\]](https://github.com/admire-eurohpc/DataClay.git) 
++ Press the green button "<> Code"
++ Download the ZIP
+
+<img src="https://github.com/bsc-dom/API-cargo/blob/main/docs/_static/download_ZIP.png" alt="picture" style="width: 50%;"/>
+
++ Extract the content of the zip
+
+
+
+#### -Or-
+
+
+### Cloning the repository
+#### http
+```bash
+git clone https://github.com/admire-eurohpc/DataClay.git
+```
+-or-
+#### ssh
+```bash
+git clone git@github.com:admire-eurohpc/DataClay.git
+```
 
 ## Usage:
 
@@ -48,6 +76,7 @@ docker compose -f /<path>/<to>/<plugin>/dataclay-plugin/docker-compose.yaml down
 ```
 
 ## Recompile Shared Object:
+If some changes are done to the dataclay_plugin.c file, the shared object can be recompiled with the following command line:
 ```bash
 gcc -shared -o libdataclayplugin.so -fPIC -I/usr/include/python<python-version> dataclay_plugin.c -lpython<python-version>
 ```
